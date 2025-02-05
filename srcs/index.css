@@ -1,0 +1,66 @@
+*{
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+  
+   
+}
+@font-face{
+    font-family: myFont;
+    src:url(static/Outfit-Regular.ttf);
+ 
+}
+body{
+   font-family: myFont;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+  background-color: hsl(212, 45%, 89%)
+   
+}
+ .qr{ 
+    
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction:column;
+    box-shadow: 0px 0px 10px  hsl(216, 15%, 48%);
+    border-radius: 15px;
+    margin: 40px;
+    height: 75vh;
+    
+} 
+img{
+    width: 100%;
+    padding: 20px 20px 0px;
+    
+    border-radius: 2rem;
+   
+
+}
+
+.qr h3{
+    text-align:center;
+    padding: 0px 50px ;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.qr p{
+
+font-size: 15px;
+padding: 0px 50px ;
+text-align: center;
+color: hsl(216, 15%, 48%);
+
+}
+@media (min-width: 1140px){
+
+}
+.qr{
+   
+    width: 400px;
+  
+}
+
+
+
