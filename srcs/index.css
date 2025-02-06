@@ -53,6 +53,12 @@ text-align: center;
 color: hsl(216, 15%, 48%);
 
 }
+@media (min-width: 375px){
+   body{
+    width: 100%;
+   }
+  
+}
 @media (min-width: 1140px){
 
 }
