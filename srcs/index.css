@@ -53,14 +53,14 @@ text-align: center;
 color: hsl(216, 15%, 48%);
 
 }
-@media (max-width: 376px){
+@media only screen and (max-width: 376px){
     .qr{
         width: 100%;
         margin: 0;
    }
 
    }
-   @media (min-width: 376px) and (max-width:1139px){
+   @mediaonly screen and (min-width: 376px) and (max-width:1139px){
     .qr{
         margin: 0;
         width: 100%;
@@ -70,7 +70,7 @@ color: hsl(216, 15%, 48%);
    }
   
 
-@media (min-width: 1140px){
+@media only screen and (min-width: 1140px){
 
 }
 .qr{
